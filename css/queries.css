@@ -1,0 +1,221 @@
+/*Big tablets to desktops */
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+  div.nav-bar {
+    padding: 4rem 6rem 2rem;
+  }
+  div.background p {
+    padding-left: 0rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  div.hero-background-pos {
+    left: 72%;
+  }
+  div.hero-content-heading h3 {
+    font-size: 2.5rem;
+  }
+  div.hero-content-heading p {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    letter-spacing: 2.5px;
+  }
+}
+
+/*Small tables to big tablets: from 767px to 1023px */
+@media only screen and (max-width: 1023px) {
+  div.nav-bar {
+    padding: 4rem 6rem 2rem;
+  }
+  div.hero-content-heading h3 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  div.hero-content-heading p {
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 2.5px;
+    font-weight: 400;
+  }
+  div.hero-background-pos {
+    left: 74%;
+  }
+  div.background p {
+    padding-left: 0rem;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  div.snapshot-box-content {
+    width: 100%;
+  }
+  div.gallery-content p {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+  div.snapshot-team p {
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+  }
+  div.footer-content p {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+  div.box1 {
+    width: 100%;
+    height: 230px;
+  }
+
+  div.box3 {
+    width: 100%;
+    height: 230px;
+  }
+}
+
+/*Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  div.nav-bar {
+    padding: 4rem 6rem 2rem;
+    display: none;
+  }
+
+  .nav-sm {
+    display: flex;
+  }
+
+  .nav-sm.open {
+    height: 100%;
+  }
+  .nav-sm.open .nav_links--sm {
+    opacity: 1;
+  }
+  .nav_links li a:hover {
+    background: none;
+    font-size: 1.6rem;
+  }
+
+  ul li {
+    padding-bottom: 1rem;
+  }
+  div.logo {
+    font-size: 2rem;
+  }
+
+  div.hero-section {
+    padding: 4rem;
+  }
+  div.hero-content-heading h3 {
+    padding-top: 5rem;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+  div.hero-content-heading p {
+    font-size: 0.9rem;
+    letter-spacing: 1.8px;
+    font-weight: 400;
+  }
+  div.background {
+    width: 700px;
+    height: 280px;
+    padding-bottom: 20rem;
+  }
+  div.background p {
+    padding-left: 0rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  div.hero-background-pos {
+    display: none;
+  }
+  div.snapshot-team {
+    background: #f0f0f0;
+    text-align: center;
+    padding-top: 2rem;
+    width: 100%;
+  }
+  div.snapshot-box-content {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+
+  div.box1 {
+    width: 100%;
+    height: 230px;
+  }
+
+  div.box3 {
+    width: 100%;
+    height: 230px;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  div.nav-bar {
+    padding: 4rem 2rem 2rem;
+  }
+  ul.nav_links {
+    display: flex;
+    margin: 0;
+    padding-left: 10%;
+  }
+  div.background p {
+    padding-left: 0rem;
+    font-size: 0.6rem;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+  }
+  div.background {
+    width: 700px;
+    height: 280px;
+    padding-bottom: 20rem;
+  }
+  div.background p {
+    padding-left: 0rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  div.snapshot-box-content {
+    display: block;
+    width: 100vw;
+    justify-content: center;
+  }
+  div.hero-content-btn a {
+    text-align: center;
+  }
+  div.box1 {
+    width: 100%;
+    height: 230px;
+  }
+
+  div.box3 {
+    width: 100%;
+    height: 230px;
+  }
+  div.hero-background-pos {
+    display: none;
+  }
+  div.footer-content p {
+    font-size: 0.8rem;
+  }
+  div.footer-content h4 {
+    font-size: 1rem;
+  }
+  input[type="text"] {
+    width: 50%;
+  }
+
+  input[type="email"] {
+    width: 50%;
+  }
+  textarea {
+    width: 100%;
+  }
+}
